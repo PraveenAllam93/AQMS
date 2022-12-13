@@ -26,7 +26,7 @@ public class App {
                 preparedStmt.setInt(5,getRandomNumber(75, 200));
                 preparedStmt.setInt(6,getRandomNumber(75, 200));
                 preparedStmt.setInt(7,getRandomNumber(75, 200));
-                preparedStmt.setString(8, "Air quality is fine");
+                preparedStmt.setString(8, "Need to check the air quality");
                 
                 preparedStmt.execute(); 
                 n -= 1;
